@@ -1,0 +1,48 @@
+html=> hypertext markup language
+javascript is like a brain or heart to design a webpage
+basic JS
+emmet abbreviation=> shift +! then enter
+extensions: 
+live server
+vs code icons
+html snippets
+html css support
+
+javascript is always a synchronous function=> line by line execution
+arrays and objects
+
+array:
+=>group of elements
+=>collection of heterogenous elements.
+=>represent: [] , seperated by commas
+=> elementsinside array are called indexes.
+=> starts with 0 and ends with length-1(n-1)
+var array = [1,'2', "guvi",true]=> length of an array = 4
+
+object:
+=> always has key and value as a pair.
+=> represent : {}, seperated by commas
+=> 2 ways to access the value=> dot operator, square brackets
+
+datatypes:
+
+primitive=> number,string and boolean
+composite
+trivial
+
+split()=> it is a function , used to seperate each and every element in an array.
+join()=> it is a function , used to join each and every element in an array.
+
+for loop=> 
+
+loops=> can execute a block of code a number of times.
+
+syntax=> for (var or let exp 1; exp 2; exp 3){
+    block of code
+}
+ exp1 => executed before the code block. => initialization
+
+ exp2 => defines a condition for executing the code block.=> condition
+
+ exp3 => after the code block.=> increment or decrement
+
