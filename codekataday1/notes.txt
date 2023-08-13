@@ -30,8 +30,8 @@ primitive=> number,string and boolean
 composite
 trivial
 
-split()=> it is a function , used to seperate each and every element in an array.
-join()=> it is a function , used to join each and every element in an array.
+split()=> it is a function , used to seperate each and every element in an array and it returns an array.
+join()=> it is a function , used to join each and every element in an arrayand it returns a string
 
 for loop=> 
 
@@ -45,4 +45,20 @@ syntax=> for (var or let exp 1; exp 2; exp 3){
  exp2 => defines a condition for executing the code block.=> condition
 
  exp3 => after the code block.=> increment or decrement
+
+ if else condition:
+
+ definition:
+
+ a statement executes is a specified condition truthy. 
+ if the condition is gfalsy, another statement will be executed.
+
+ syntax:
+ if(condition){ 
+    statement
+ }
+ else{
+    statement1
+ }
+
 
