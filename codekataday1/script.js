@@ -68,3 +68,24 @@ let string1 = "helloworld";
 for (let i=0; i<10; i++){
     console.log(string1[i]);
 }
+
+//if else
+// function num(a)
+// let result;
+
+// if(a>35){
+//     result="positive"
+// }
+// else{
+//     result="not"
+// }
+// console.log(a(5));
+
+let number = 3;
+
+if(number>10){
+    console.log("greater")
+}
+else{
+    console.log("not met")
+}
