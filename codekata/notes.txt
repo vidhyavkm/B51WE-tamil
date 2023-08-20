@@ -65,3 +65,11 @@ if (age>18){
 else{
     console.log("not eligible")
 }
+sort => arrange orderwise
+ alpahbetically it works fine.
+abi, priya , john, returns
+abi, john, priya, returns
+
+arr = [11, 4, 3, 55, 79]
+
+[3,4,11,55,79]

@@ -19,3 +19,14 @@ var string = "guvigeek";
 
 
 
+var arr = ["binny", "abi", "priya" , "john", "renu"]
+
+console.log(arr.sort())
+
+let array = [11, 4, 3, 55, 79]
+
+console.log(array.sort())
+
+var string = "guvi";
+
+console.log(...string);
