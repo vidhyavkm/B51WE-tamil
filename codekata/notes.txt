@@ -1,0 +1,67 @@
+scoping:
+var let and const
+
+to assign a value to some properties we can use this scoping.
+var age = 12
+let age = 12
+const age = 12
+
+for loop:
+
+var num = 1;
+console.log(num);
+
+html=> hypertext markup language.
+
+html snippets
+live server
+vscode icons
+html css supports
+
+javscript is a synchronous function.
+
+javascript datatypes:
+primitive => string, number, boolean.
+composite 
+trivial
+
+string => those who are inside the quotes "", ''=> "guvi", "2"
+number => ex:1 2 3, 1/4, 4.5 etc
+boolean => true or false.
+
+composite:
+
+arrays and objects:
+
+arrays
+ => represent as [], seperated by commos.ex:[1,2,3,4]
+ => group of elements.(it includes all kind of datatypes)
+ => heterogeneous elements.ex:[1,"1","guvi",true,"false"]=> length = 5
+ => elements inside arrays are called indexes.
+ => starts with index 0.
+ => ends with length-1.
+
+array methods and string methods.
+
+split()=> is a function used to seperate each and every element in an array and it returns an array. 
+join() => is a function used to join each and every element in an array and it returns an string.
+
+forloop:
+
+to reduce the time and length of the code we can use for loop.
+ 
+syntax:
+ for (initialization; condition; inc or dec){
+    block of code or console.log()
+ }
+
+if/else;
+
+to explain whether the condition is true or false
+
+if (age>18){
+    console.log("eligible")
+}
+else{
+    console.log("not eligible")
+}
