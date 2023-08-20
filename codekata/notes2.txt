@@ -1,0 +1,22 @@
+triangle area = 1/4(root3*a*a)
+var a = userInout[0]
+var area = formulae
+
+tofixed method=> it will stop the decimal places as needed.
+
+toFixed(3)
+
+var a = [1,2,3,4]
+
+nested if :
+
+if (condition){
+    block of code
+} else if{
+
+}else if{
+
+}
+
+parseint and parsefloat=> declare 
+
