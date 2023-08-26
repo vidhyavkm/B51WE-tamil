@@ -1,0 +1,32 @@
+github session
+
+it is a mediator, to the learner or the project owner and recruiter or mentor.
+
+three ways to push your files or projects into github
+
+1. drag and drop or choose ur files.
+=> we can push only upto basic js and html,css files.
+=> this method not suits for big projects
+
+
+2. vs code source control method.
+publish to github
+=> no need to create a new repo in github page n=by ourself
+
+3. command line method.
+=> we have to create a new repo 
+=> and type the following steps in terminal
+
+git init
+git remote add origin https:/link given by github
+git add .
+git commit -m "commit msg"
+git push -u origin main
+
+after giving "git push" it gives u one command , try that command.(git push setupstream like this)
+git push -u origin main => if error comes in this method, try master instead of main.
+
+ 
+if remote already exists, try this command "git remote remove origin"
+again give git remote command
+
