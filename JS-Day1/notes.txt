@@ -64,7 +64,6 @@ null
 =======
 content:
 
-
 "Introduction to web, Browser Wars 
 DOM tree VS CSSOM tree 
 Intro to Browser internals(HTML parser,CSS parser)
