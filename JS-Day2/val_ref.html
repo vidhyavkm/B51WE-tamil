@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //call by value or copy by value
+        //primitive datatypes
+
+        var a=5;
+        // console.log(a);
+        //a=b=c=5
+        //it will store in seperate space with same value
+        var b=a;
+
+        let c=a;
+
+        console.log(a,b,c);
+
+
+    // copy by ref or call by refernce
+// composite datatypes
+//arrays and objects
+
+var arr =[1,2,3,4,"hi"];
+console.log(arr);
+arr[2]="guvi";
+var arr1 = arr;
+console.log(arr,arr1);
+
+var obj =[{
+    name:"guvi",
+    place:"chennai"
+}]
+console.log(obj);
+obj.name="geek";
+console.log(obj);
+
+    </script>
+</body>
+</html>

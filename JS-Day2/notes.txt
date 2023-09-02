@@ -1,0 +1,63 @@
+Copy by value and Copy by reference
+
+Window & document object
+
+Array and JSON iteration
+
+XMLHTTPRequest=> traditional method of getting datas from server.
+
+http => hypertext transfer protocol.
+
+XML=> extensible markup language.
+
+we are creating a XMLHTTPRequest to server
+opening a connection to get the data from server
+sending a connection to the server
+server is loading the data(onload)
+server always returns data in the form of JSON(javascript object noatation)
+for better undrstanding we convert the JSON into a string type.
+by using JSON.parse=> it converts the JSON format into a string and value.
+
+print the area of 88th index country?
+
+print the name of all the countries?
+
+copy/call by value:primitive datatypes
+copy/call by reference:composite datatypes
+
+window object/ document object:
+
+window:
+
+properties
+methods:
+close,open,alert,settimeout,stop,prompt etc.,
+
+document:
+properties=> title, head, body
+webpage
+html elements can accessed.
+
+array iteration:=> for loop.
+Json iteration:=> parse / stringify
+
+JSON=> JS object noatation
+lightweight , human-readable format for exchanging the datas.
+originally derived from jS.
+
+two methods;
+
+JSON.parse()=> method takes string as input and transforms it into object.
+JSON.stringfy()=> method takes JSON object and converts it into string.
+
+API=> application programming interface.
+
+for loop(often),for of,for in,foreach, for while(rarely) => array itertion
+
+
+
+
+
+
+
+
