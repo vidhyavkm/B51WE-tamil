@@ -54,6 +54,7 @@
 //     console.log(i);
 // }
 
+<<<<<<< HEAD
 let string = "";
 
 for (let i=0; i<10; i++){
@@ -68,6 +69,22 @@ let string1 = "helloworld";
 for (let i=0; i<10; i++){
     console.log(string1[i]);
 }
+=======
+// let string = "";
+
+// for (let i=0; i<10; i++){
+//    string = string + i;
+// }
+// console.log(string);
+
+
+
+// let string1 = "helloworld";
+
+// for (let i=0; i<10; i++){
+//     console.log(string1[i]);
+// }
+>>>>>>> 0ed5072 (n)
 
 //if else
 // function num(a)
@@ -81,6 +98,7 @@ for (let i=0; i<10; i++){
 // }
 // console.log(a(5));
 
+<<<<<<< HEAD
 let number = 3;
 
 if(number>10){
@@ -89,3 +107,13 @@ if(number>10){
 else{
     console.log("not met")
 }
+=======
+// let number = 3;
+
+// if(number>10){
+//     console.log("greater")
+// }
+// else{
+//     console.log("not met")
+// }
+>>>>>>> 0ed5072 (n)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,4 +36,43 @@
     </script>
    
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script src="script.js"></script> --> => external js
+    <script>
+        //XMLHttpRequest object
+        //new keyword
+        //creating an XHR object
+        // send request
+
+        var request = new XMLHttpRequest();
+        // console.log(request);
+        //open a connection
+        request.open('GET','https://restcountries.com/v3.1/all');
+        //sending a connection
+        request.send();
+        //page load
+        request.onload = function(){
+            // console.log("Page loaded")
+        var data = JSON.parse(request.response)
+        console.log(data);
+        
+        for (var i=0;i<data.length;i++){
+            // console.log(data[i].area);
+            console.log(data[88].area);
+            // console.log(data[i].name['common']);
+        }
+        }
+
+    </script>
+   
+</body>
+>>>>>>> 0ed5072 (n)
 </html>
