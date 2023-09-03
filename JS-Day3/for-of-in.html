@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+// for in - for of  -for loop - for each
+
+//for loop => used for array iteration
+
+ var array =[1,2,3,4,"guvi","geek"];
+ for (var i=0;i<array.length;i++){
+    console.log(i)
+ }
+
+ //for in loop : arrays and objects
+
+ var obj = {
+    name:"guvi",
+    city:"place"
+ }
+
+ for (var key in obj){
+    console.log(key)
+console.log(obj.name,obj.city)
+ }
+
+ //for of loop
+
+ //arrays
+
+ var cars =["BMW","volvo","Mini"]
+
+ for (var index of cars){
+    console.log(index)
+    console.log(cars["index"])
+
+ }
+
+ for (var key in cars){
+    console.log(key)
+    console.log(cars[key])
+
+ }
+
+ //foreach=> 
+ //it works on each and every index of an array
+
+ let arr = [1,2,3,45];
+
+ arr.forEach((element)=> console.log(element*2))
+ //output=> [2,4,6,8,90]
+
+ const fruits = ["apple","orange","cherry"]
+
+ fruits.forEach((element)=> console.log(element))
+
+ fruits.forEach((element,index)=> console.log(element,index))
+
+ fruits.forEach((element,index)=> console.log(index+2))
+
+   </script> 
+
+</body>
+</html>

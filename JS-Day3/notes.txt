@@ -68,3 +68,12 @@ appa
 [2,3,4,5,1]
 [3,4,5,1,2]
 2 times.
+
+global scope vs block scope:
+
+global scope works on all kinds of assigned values=> var, let , const
+
+all the scopes are global, upto when the value is assigned inside the block. 
+
+if the value is assgined inside but calling outside the block , 
+let and const gives not defined.

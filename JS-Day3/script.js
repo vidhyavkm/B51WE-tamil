@@ -39,8 +39,11 @@ console.log(mul(50,40));
 (function(p,q){
     console.log(p-q)
 })(60,30);
+
 //arrow function:
+
 //multiline
+
 var res= (i,j) => {
     var result=20;
     var total = result+i+j
@@ -49,6 +52,7 @@ var res= (i,j) => {
 console.log(res(50,10))
 
 //single line
+
 var compute= (u,v) => u+v
 console.log(compute(3,2)); 
 
