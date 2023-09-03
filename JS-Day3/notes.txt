@@ -1,0 +1,70 @@
+Hoisting & scope
+function & return keyword
+types of function
+Arrow functions
+
+hoisting: 
+
+always go for let and const
+less usage of var=> coz of hoisting
+it always gives undefined.
+
+definition:
+
+a variable can be used before it has been declared without showing error.
+mostly var is hoisted, only var is available at ES5.(ecmascript)
+var is the oldest keyword in JS.
+var is global scope.
+pushing the variable to the top of the scope.
+
+
+scoping => var , let , const 
+
+var => reassign and redeclare => ES5
+let => reassign cant redeclare=> ES6
+const => cant reassign and redeclare=>ES6
+
+function introduction:
+
+code reusability.
+set of instructions to perform a specific tasks.
+
+how to create a function:
+
+-every function should begin with the keyword function=> ES5.
+-but we can create a functionwithout the word function in ES6(arrow function)
+-function name should be unique.
+-inside function return keyword should be used.(can be changed)
+-if we are not using return keyword, it gives undefined.
+-a list of parameters should be inside the () seperated by commos.
+-{block of code} list of composing elements inside the paranthesis.
+-we should call the function.
+-functionname(arguments).
+-return keyword will stop the function once it got executed.
+
+types of functions:
+
+1. named or normal function
+syntax: function func.name(parameters) {block of code and return keyword}func.name(arguments)
+
+2. anonymous functions: has no name.
+syntax: scope variablename = function (){return}
+
+3. IIFE (immediately invoked function expression)rarely used, less memory used.
+syntax: (function(){})(); no return keyword, no function name, variable name
+
+4. arrow function => mostly used, latest version in ES6.
+syntax: scope variablename = () => {}();
+
+guvi=> Guvi
+
+12121=> split 1 2 1 2 1=> reverse 1 2 1 2 1 => join 12121=> same input => palindrome 
+=> not same => not a palindrome
+
+12345=> 1 2 3 4 5 =>  5 4 3 2 1 => 54321 => not same => not a palindrome
+appa
+
+[1,2,3,4,5]=> shift,unshift, pop, push
+[2,3,4,5,1]
+[3,4,5,1,2]
+2 times.
