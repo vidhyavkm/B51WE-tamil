@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1
+        var arr1 =[1,2,3,4]
+        var arr2 =[6,7,8,9,0]
+
+        var arr = [...arr1,...arr2];
+        console.table(arr);
+
+        //2
+
+        var arr3 = [10,20,30];
+        var arr4 =[40,...arr3,60]
+        console.table(arr4);
+
+        //3
+
+        const obj = {
+            fname:"vidhya",
+            lname:"s"
+        };
+        console.log(obj);
+
+        const obj2 = obj;
+
+        // const obj2= {...obj};
+        console.log(obj2);
+
+    </script>
+</body>
+</html>

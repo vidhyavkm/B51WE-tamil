@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // block scope => let const
+        // global scope => var 
+        // functional scope => var,let ,const
+
+       // global scope
+        {var z="hello"
+    let b = "guvi"
+    const c ="hi"
+    {
+        console.log(z,b,c)
+    }
+    }
+
+    //block scope
+    // let a = "hi"
+    {
+        let a ="vidhya"
+        console.log(a)
+    }
+    // console.log(a);
+
+    //functional scope
+
+//     function add(){
+//         var y = 90;
+//         console.log(y);
+//     }
+// add();
+// console.log(y);
+
+function add(){
+        let y = 90;
+        console.log(y);
+    }
+add();
+console.log(y);
+    </script>
+</body>
+</html>
