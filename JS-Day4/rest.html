@@ -15,6 +15,18 @@
             console.log(rest)//gives an array
         }
         add(3,4,5,6,7,8,90)
+
+        //sum of elements in an array
+
+        function sum(...numbers)
+        {
+            var sum = 0;
+            numbers.forEach(function(number)
+            {
+                sum += number;            })
+                return sum;
+        }
+        console.log(sum(1,2,3,4,5))
     </script>
 </body>
 </html>

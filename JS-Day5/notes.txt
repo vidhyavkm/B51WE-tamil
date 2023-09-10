@@ -1,0 +1,42 @@
+Contents:
+
+"Understanding the basics of prototype
+What are classes in js?
+constructor
+use of this keyword in classes"
+
+OOP:
+
+=> object oriented programming.
+=> classes and objects 
+=> object constructor.
+
+=> code is less
+
+js is a object oriented program.
+we convert it into a class based program to achieve some limitations.
+
+prototype:
+
+it is a inbuilt property .
+this allows us to define the properties.
+
+this s used as a keyword using inside the constructor.
+for not changing the key.
+
+new is a keyword which is represented as a new array or instance.
+
+class is like a blueprint of an object.
+class should have a unique name.
+
+syntax:
+
+class classname {
+    constructor(parameters){
+        this.properties=properties...etc.,    }
+}
+a body of class is the part in curly braces. three aspects.
+
+kind=> setter, getter or field
+location=> static or instance
+visiblity => public or private.
