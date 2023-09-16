@@ -1,0 +1,61 @@
+Contents: array methods
+Map, Reduce, Filter
+
+Map:
+
+works in an array.
+works each and every index in an array.
+returns a new array.
+it always takes function as a parameter.
+it does not change the length of the array.
+we cant use map if we want to change one particular element an array.
+
+syntax: arr.map()=> ES6.
+
+arr.map((index)=> index*2)
+        console.log(res);
+
+        
+Filter:
+
+works in an array.
+works each and every index in an array.
+returns a same array with same elements
+it always takes function as a parameter.
+it does change the length of the array.(reduce)
+it eliminate something as per the condition.
+
+syntax: arr.map()=> ES6.
+
+arr.filter((index)=> index*2)
+        console.log(res);
+
+
+Reduce:
+
+works in an array.
+works each and every index in an array.
+returns a single value not an array.
+it always takes function as a parameter.
+it does change the length of the array.
+
+it has 2 parameter(accumulator and current value)
+if we are not giving acc value it takes the 0th index as acc.
+
+
+syntax: arr.reduce(acc,curr)=> ES6.
+
+pop()=> removes last element
+push() => adds last element
+shift() => removes first element
+unshift() =>  adds new first element
+length() => gives the lengthof array
+join() => joins the array indexes
+splice() => add new items in an array(2,0,add items)
+slice() => removes the partcilcular index.
+concat() => to join twp arrays
+tostring() => converts the array into a string
+
+
+
+

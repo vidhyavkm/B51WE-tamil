@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr = [1,2,3,4,5]
+
+        //sum of the numbers using reduce.
+
+    // syntax: arr.reduce(acc,index)
+
+    //without acc
+    
+    var res = arr.reduce((acc,val)=> acc+val) 
+    console.log(res); //15
+
+    //acc = oth index=1
+
+    //with acc 
+
+    var res1 = arr.reduce((acc,curr)=> acc+curr,20) 
+    console.log(res1);
+
+//print sum of all marks .
+    var student =[
+            {
+                name:"Alex",
+                marks:50 
+            },
+            {
+                name:"Alex1",
+                marks:60 
+            },
+            {
+                name:"Alex2",
+                marks:70 
+            }
+        ]
+
+        var res2 = student.reduce((acc,curr)=> acc+curr.marks,0) 
+    console.log(res2);
+           </script>
+</body>
+</html>
