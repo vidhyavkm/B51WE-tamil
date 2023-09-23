@@ -1,0 +1,61 @@
+Contents:
+
+div vs section vs article
+div vs span = inline vs block elements
+HTML Forms
+Input elements and attributes
+Form submit
+
+head tag => h1 to h6 => 6types
+p tag 
+
+span tag
+a tag anchor
+b tag bold
+textarea
+canvas
+Form
+table
+mark
+input tags
+ordered list
+
+
+
+html=> hypertext markup language
+it gives a structure to the webpage 
+to build a statc website
+
+doc. type => html
+language=> english
+
+meta tags=> default things, ne need to change
+
+title tags => as per our we can change
+
+head tag=> bootstrap link, fonts awesome , style link
+ 
+ body tag=> script.js
+ all other tags 
+
+ it has openeing amd closing tags
+ self closingtags=> meta , input etc.
+
+ attribtes => extra information about the tags
+
+ tag + content => elements
+
+ inline => span
+it occupys only upto the content length.
+it will print in the same line
+
+ block => p
+
+ it occupys throughout the width of the document.
+it will takes u to the next line.
+
+ div => it doesnt have any specific features
+ but it always contains children
+
+
+
