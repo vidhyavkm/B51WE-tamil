@@ -6,12 +6,34 @@ HTML Forms
 Input elements and attributes
 Form submit
 
-head tag => h1 to h6 => 6types
-p tag 
+what is html=> hypertext markup language
 
-span tag
-a tag anchor
-b tag bold
+it gives a structure to the webpage
+document type=> HTML
+language=> english
+
+meta tags=> default;
+title we can change
+
+all the tags are inside html tags
+head tag and body tag 
+style tag link tag title => head tag
+all other tags like script input etc inside bosy tag.
+
+head body script => it has open and end tags
+meta , input etc called self closing tags.
+
+attributes=> additional information about the tags
+
+head tag => h1 to h6 => 6types
+p tag => block elements
+span tag=> inline element
+
+a tag anchor=> it gives us a link 
+attribute=> href and target=> to move into next page
+
+b tag bold=> it gives the text in bold format
+
 textarea
 canvas
 Form
@@ -19,8 +41,6 @@ table
 mark
 input tags
 ordered list
-
-
 
 html=> hypertext markup language
 it gives a structure to the webpage 
@@ -41,11 +61,10 @@ head tag=> bootstrap link, fonts awesome , style link
  it has openeing amd closing tags
  self closingtags=> meta , input etc.
 
- attribtes => extra information about the tags
-
  tag + content => elements
 
  inline => span
+
 it occupys only upto the content length.
 it will print in the same line
 
@@ -57,5 +76,16 @@ it will takes u to the next line.
  div => it doesnt have any specific features
  but it always contains children
 
+form tag
+
+name
+email
+phone no
+address etc
+submit or search
+
+table tag
+1. table head => thead  => table row => tr => th
+2. table body => tbody=>table row=> table data => td
 
 
