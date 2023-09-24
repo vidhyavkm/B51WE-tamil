@@ -6,9 +6,16 @@
     <title>Document</title>
     <style>
         table,th,td{
-            border:1px solid black;
-            border-collapse:collapse;
+            /* border:3px dotted red; */
+            border-color: aqua;
+            border-style: dashed;
+            border-width: 3px;
+            /* border-collapse:collapse; */
         }
+        p{
+            border: 2px solid pink
+        }
+       
     </style>
 </head>
 <body>
@@ -16,13 +23,13 @@
     <table >
         <thead>
             <tr>
-            <th>State of Health</th>
+            <th rowspan="2">State of Health</th>
             <th colspan="2">Fasting Value</th>
             <th>After Eating</th>
             </tr>
 <tr>
-    <th></th>
     <th>Minimum</th>
+
             <th>Maximum</th>
             <th>2 hrs of Eating</th>
 </tr>
@@ -48,5 +55,7 @@
             </tr>
         </tbody>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam eveniet dolorem velit, amet labore perspiciatis praesentium dolorum neque at aut consequatur tempore eaque quos officia. 
+        Ipsam aspernatur necessitatibus fugiat!</p>
 </body>
 </html>

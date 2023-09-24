@@ -1,0 +1,18 @@
+h1{
+    color:palevioletred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* body{
+    background-color: aqua;
+} */
+#paragraph{
+    color:darkmagenta;
+    font-size: 50px;
+}
+.para{
+    color:brown;
+    font-size: 50px;
+}
+#bar{
+    background-color: lawngreen !important;
+}

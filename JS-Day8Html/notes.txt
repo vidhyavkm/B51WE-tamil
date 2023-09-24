@@ -1,0 +1,37 @@
+What is css?
+ways to use css 
+property & value 
+class vs id 
+use of important 
+display property: inline, block
+
+cascading styles=> it makes the html web page more beautiful 
+
+user convenient.=> to look good and feel.
+
+there are three types of css:
+
+1. inline css
+2. internal css
+3. external css=> we have to use.
+
+priority=> inline => internal => external
+
+selectors=> 
+
+1. tag selectors
+2. class selectors
+3. id selectors
+
+id name should be unique.
+we can use multiple classes.
+
+important flag=> !important
+it overrides all the applied properties
+
+display property:
+
+inline=> it occupys only the content size
+block => it occupys the whole width of the documnet.
+
+i
