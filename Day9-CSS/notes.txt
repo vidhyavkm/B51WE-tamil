@@ -1,0 +1,70 @@
+Contents:
+
+box model: padding,margin,border 
+position property: fixed,static,relative,absolute,sticky
+parent inherit 
+gradient
+Flex - display, direction, wrap, flex-flow, justify-content, align-content
+
+positionproperty:
+default behaviour:
+
+1. cannot work with top right left or bottom measurements.
+left or right
+top or bottom
+
+fixed:
+they are affected by the combinations.
+if u alot a specific position , it will fix at the position.
+they are not affected when scrolling.
+it affects the doc flow.
+it doesnt have a space for it.
+
+combinations:
+top left
+top right
+bottom left
+bottom right
+
+static:
+no change
+by default
+they are not affected by the combinations.
+
+sticky:
+they are affected by the combinations.
+they are not affected when scrolling until they reached their given position.
+
+relative:
+it changes its position relative to its normal position.
+they are affected by the combinations.
+it affects the doc flow.
+it creates it own space.
+
+absolute:
+it always changes its position wrt its parent element.
+it affects the doc flow.
+they are affected by the combinations.
+always use relative along with abs.
+
+parent inherit:
+
+inherit=> it is a behaviour transfered from the parent to child.
+css inherit=> the proprty of the parent can be transfer to the child element.
+keyword: inherit=> we can use for giving the values.
+it automaticlly copies its parent property.
+
+gradient: 
+
+to give image for the background by using linear and radial.
+
+we can give colors as per our choice.
+
+flex: for one direction alignment
+the flex may be specified using one or more values.
+for alingning the items from one direction to another.
+
+
+
+
+

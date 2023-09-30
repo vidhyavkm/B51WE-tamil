@@ -25,6 +25,8 @@ it always takes function as a parameter.
 it does change the length of the array.(reduce)
 it eliminate something as per the condition.
 
+1,2,3,4,5=> 1,3,5
+
 syntax: arr.map()=> ES6.
 
 arr.filter((index)=> index*2)
