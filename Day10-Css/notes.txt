@@ -1,0 +1,32 @@
+Contents:
+
+"overflow - hidden, scroll, auto, visible
+dropbox
+measurements 
+fonts 
+icons 
+media query"
+
+overflow:
+
+hidden=> it hides the content if its exceed the container
+scroll=> it gives the horizontal and vetrtical scroll bars, eventhough the content is 
+less.
+visible=> it shows all the content without considering the height and width.
+auto=> behaves like both scroll and visible based on the situation.
+
+dropbox:
+
+for creating a dropbox we can use selct and option tag in html
+in css we can use multiple properties including hover.
+
+Measurements:
+
+     in>cm>pc>rem>em>ch>mm>px>pt>% as per size
+    widely used=> px and % usage. 
+
+fonts:
+
+we have to copy the fonticon cdn link and pate it inside our head tag
+then we can copy the icon links and use in html.
+

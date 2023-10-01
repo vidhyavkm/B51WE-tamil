@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown{
+            background-color: aqua;
+            width:80px;
+            padding:10px;
+            position:relative ;
+text-align: center;
+border-radius: 15px;
+        }
+        .list{
+            position: absolute;
+            left:10px;
+            top:40px;
+            background-color: brown;
+            color: aliceblue;
+            padding:5px;
+            border:2px solid greenyellow;
+            display:none;
+        }
+        .name{
+            padding:5px;
+            border:1px solid white;
+        }
+        .name:hover{
+background-color: grey;
+
+        }
+        .dropdown:hover .list{
+            display:block;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- drop box using html tag -->
+    <p>A Drop box</p>
+    <select>
+        <option value="">Coffee</option>
+        <option value="">Tea</option>
+        <option value="">Juice</option>
+        <option value="">Icecream</option>
+        
+    </select>
+
+    <br><br>
+
+     <!-- drop box using css  -->
+<div class="dropdown">Courses
+    <div class="list">
+        <div class="name">HTML</div>
+        <div class="name">CSS</div>
+        <div class="name">React</div>
+        <div class="name">Javascript</div>
+        <div class="name">Nodejs</div>
+        <div class="name">MongoDB</div>
+    </div>
+</div>
+
+</body>
+</html>
