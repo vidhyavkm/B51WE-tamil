@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- <a href="https://www.zenclass.in/class">zenclass</a> -->
+   
+    <script>
+       let anchor = document.createElement("a");
+       anchor.setAttribute('href','https://www.zenclass.in/class');
+       anchor.innerHTML="zenclass";
+       document.body.append(anchor);
+
+       let heading = document.createElement('h1');//step 1
+heading.innerHTML = "hello all";//step 2
+// document.body.append(heading);//step 3
+
+let para = document.createElement("p");//step 1
+para.innerText = "this is a para tag";//step 2
+// document.body.append(para);//step 3
+
+heading.setAttribute("class","container");
+para.setAttribute('id','box');
+para.setAttribute("class","column")
+heading.style.color="red";
+para.style.fontSize="40px";
+document.body.append(heading,para)
+
+let elem = document.createElement("span");
+      elem.classList.add('item','item1','item2')
+       elem.innerHTML="zenclass";
+       document.body.append(elem);
+
+
+
+
+
+
+    </script>
+</body>
+</html>

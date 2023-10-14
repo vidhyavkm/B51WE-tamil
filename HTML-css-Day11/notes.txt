@@ -1,0 +1,43 @@
+"What is RWD?
+What is mobile first approach?
+Bootstrap - 4.6"
+
+rwd=> responsive web design
+it should be responsive for all kind of devices.
+for user convenient.
+if we want to make a design responsive, we can use media queries.
+without media query we can make our design responsive by using Bootstrap.
+
+Bootstrapis a framework that uses html, css and JS to make the design responsive.
+
+this is mobile first approach.
+it will consume less time.
+here codes are inbuilt.
+it fits to any screen.
+
+two ways of using Bootstrap:
+
+1. copy cdn link => go to bootstarp page, copy the css link. and paste it into ur vscode inside head tag
+
+2. download files=> 
+
+grid system=>
+
+container => row => column
+bootstrap grid system=. we can create nore rows abut only 12 columns
+
+container,
+container-fluid=> it occupys throughput the width of the documnet.
+container-sm 
+container-md 
+cotainer- l
+etc.
+ we can use max 12 columns=>
+ 
+ 1*12 =12
+ 2*6= 6*6
+ 3*4= 4/4/4
+ 4*3=3/3/3/3
+ 6*2=2/2/2/2/2/2
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THis is a DOM Session</title>
+</head>
+<body>
+    <!-- <h1>this is a h1 tag</h1>  statically created element -->
+    <!-- <div>
+        <span>this</span>
+    </div> -->
+    <span></span>
+    <script>
+
+let heading = document.createElement('h1');//step 1
+heading.innerHTML = "hello all";//step 2
+document.body.append(heading);//step 3
+
+let para = document.createElement("p");//step 1
+para.innerText = "this is a para tag";//step 2
+document.body.append(para);//step 3
+
+
+let division = document.createElement("div");//step 1
+division.innerHTML = "";//step 2
+// document.body.append(division);//step 3
+
+let span = document.createElement('span');//step 1
+span.innerText= "this is a span tag";//step 2
+division.append(span)
+document.body.append(division);//step 3
+
+
+    </script>
+</body>
+</html>

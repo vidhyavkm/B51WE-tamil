@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let heading = document.createElement(`h1`);//step 1
+heading.innerHTML = "hello all";//step 2
+// document.body.append(heading);//step 3
+
+let para = document.createElement("p");//step 1
+para.innerText = "this is a para tag";//step 2
+document.body.appendChild(heading,para);//step 3 
+
+
+let division = document.createElement("div");//step 1
+division.innerHTML = "";//step 2
+document.body.append(division,para);//step 3
+    </script>
+    
+</body>
+</html>

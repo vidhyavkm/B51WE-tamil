@@ -1,0 +1,51 @@
+Content:
+
+"Document - 
+createElement, 
+setAttribute
+getElementById, 
+querySelector vs querySelectorAll
+innerHTML vs innerText
+appendChild vs append"
+
+DOM = Document object Model.
+combination of html elements along with javascript.
+
+dom manupulation:
+
+how to create a elements
+document.createElement();
+
+innerHTML=> used to print the elements
+innerText=> used to print the text.
+
+append=> we can ad  multiple elements inside the documents.
+appendChild=> it will added only one (the first) element.
+
+setAttribute=> it consists of all extra or additional information 
+about the tags.
+setAttribute('class','classname')
+setAttribute("id","idname")
+
+multiple classes=> 
+
+classlist.add(classnames ...)
+
+target dom:
+
+getElementById,
+getelementbyclassname
+getelementbytagname
+
+querySelector=> 
+if u want to select only one element then go for queryselector.
+syntax:
+
+document.queryselector(#idname)
+document.queryselector(.classname)
+
+querySelectorAll=>
+if u want to select all the elements then go for querySelectorAll.
+syntax:
+document.querySelectorAll(#idname)
+document.querySelectorAll(.classname)
