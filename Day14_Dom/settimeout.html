@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="counter"></h1>
+    <script>
+//         console.log("10")
+       
+        setTimeout(()=>{
+            console.log("Hello")
+        },8000)
+
+//         setTimeout(()=>{
+//             console.log("Hello Guvi")
+//         },2000)
+
+// setTimeout(timer,5000)
+// function timer() {
+//     console.log("hi all")
+// }
+//         console.log("20")
+
+//         console.log("welcome")
+
+
+//-----------------------------------------------------------------------------------
+        //print 1 to 10 and print Happy Birthday Kalam sir using settimeout
+
+        // var count = document.getElementById('counter')
+
+        // for( let i=1; i<=10; i++){
+        //     setTimeout(()=>{
+        //         console.log(i)
+        //         count.innerText=i;
+        //         if(i>=10){
+        //     console.log("Happy Birthday")
+        //         count.innerText="Happy Birthday Kalam Sir"
+        //         }
+        //     },1000*i)
+        // }
+
+        //-----------------------------------------------------------------------------
+
+
+        // 10 to 1 without for loop 
+        function numbers(count){
+            if(count>0){
+                console.log(count);
+count--;
+
+setTimeout(function() 
+ {numbers(count);
+    
+},1000);
+            }
+        }
+        numbers(10);
+
+    </script>
+</body>
+</html>

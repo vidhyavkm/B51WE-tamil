@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="blurbutton">
+    <button  submit" id="test">Click Me</button>
+    <script>
+    
+        var button = document.createElement('button');
+        button.innerHTML="Submit";
+        button.setAttribute('id','submit')
+        button.addEventListener('click',function button(event){
+            // alert("You click the button")
+            console.log("You click the button")
+            console.log(event);
+            console.log(event.target);
+            console.log(event.target.id);
+           
+        })
+        document.body.append(button)
+
+        // blur
+
+   button.addEventListener('mouseover',function mouseover(event){
+            // alert("You click the button")
+            console.log("You click the button")
+            console.log(event);
+            console.log(event.target);
+            console.log(event.target.id);
+           
+        })
+        document.body.append(button)
+        </script>
+</body>
+</html>

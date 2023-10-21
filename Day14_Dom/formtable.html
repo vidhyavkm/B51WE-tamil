@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form to Table</h1>
+    <form action="" id="data">
+        <label for="firstName">firstName:</label>
+        <input type="text" id="firstName" required><br><br>
+
+        <label for="lastName">LastName:</label>
+        <input type="text" id="lastName" required><br><br>
+
+        <input type="Submit" value="Submit" id="">
+    </form>
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th> Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script>
+        const form = document.getElementById('data');
+
+        const tbody = document.getElementById('table');
+
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+            const firstName = document.getElementById('firstName').value;
+        const lastName = document.getElementById('lastName').value;
+
+        const newRow = tbody.insertRow();
+    
+        const cell1 = newRow.insertCell(0);
+        const cell2 = newRow.insertCell(1);
+
+        cell1.textContent = firstName;
+        cell2.textContent = lastName;
+
+        form.reset();
+        });
+      
+
+    </script>
+</body>
+</html>

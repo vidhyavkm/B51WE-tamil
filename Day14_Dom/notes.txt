@@ -1,0 +1,44 @@
+Contents:
+
+"Window - Common Util functions
+setTimeout vs setInterval
+prompt, Alert, confirm
+working with events"
+
+alert box:
+
+it has ok button.
+alert()
+any information we want to give to the user.
+it enforces the user to read and acknowlegde.
+
+confirm:
+
+it has ok and cancel button.
+confrim()
+any information we want to give to the user.
+taking an acknowlegement from the user.
+ok=> return true
+cancel=> return false.
+
+setTimeout:
+
+=> will execute once.
+=> it is a function we need to execute
+=> it has a delay time.
+1000 => 1sec
+
+syntax:
+setTimeout(name,delaytime)
+function name(){
+    condition
+}
+
+setInterval:
+
+=> executes again and again at a specific time.
+syntax:
+setimterval(name,delaytime)
+function name(){
+    condition
+}

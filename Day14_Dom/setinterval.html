@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#test{
+    width:100px;
+    height:100px;
+    background-color: pink;
+}
+    </style>
+</head>
+<body>
+    <div id="test"></div>
+    <script>
+        var a=0;
+
+        var clear=setInterval(animation,1000)
+        function animation(){
+            a=a+10;
+            console.log(a);
+            if(a==100){
+                clearInterval(clear)
+            }
+            var div = document.getElementById('test');
+        div.style.marginTop=a+"px"
+        div.style.backgroundColor="red"
+        }
+
+      //print 10 to 1 and print happy birthday using setinterval.
+      
+    </script>
+</body>
+</html>
