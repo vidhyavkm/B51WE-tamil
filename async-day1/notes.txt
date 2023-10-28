@@ -1,0 +1,77 @@
+http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3DContents:
+
+Callback
+What's the callback?
+Use & its purpose of the callback
+Pain of callback
+
+task: https://docs.google.com/document/d/1K6jW6TPmqWvzoRAm2t-GlOAxKmMRsLt5zaCsdcH_3LM/edit
+
+javascript is s synchronous function=> executes line by line.
+this is time consuming.
+javascript always preference to first comes first, prefers less time.
+
+advance JS: 4 pillars
+1. callback
+2. promise=> .then .catch
+3. fetch
+4. async/await=> try catch
+
+reasons:
+
+to make sync to async.
+
+callback:
+it is function which takes one or more function as a parameter. 
+it is a function that is passed as an argument to another function.
+
+ex: settimeout
+
+settimeout:
+
+it is an async function.
+it takes function as a parameter.
+as well as the amt of time need to be block.
+
+why callback?
+
+it will not block the code.
+to avoid time consuming and memory waste.
+backend (node js)
+
+=>callstack
+=>webapi
+=>callbackqueue
+=>eventloop
+
+callstack:
+
+it is the place in the browser where it keeps all the tracks of code.
+that has to be called in the program.
+it will execute whatever the staement inside it.
+if it has a callback function it will send it to webapi.
+callstack's realtime usage is in DS and algorithm.
+
+webapi:
+
+it is the place where only the callback functions are actually executed.
+it receives the callback functions from callstack.
+it run the functions and send it to callbackqueue as per the sec.
+
+callbackqueue:
+
+it stores the async function which has come from webapi.
+it decides which one is executed at first.
+first come , first serve
+
+eventloop:
+
+it will send the callback functions from callbackqueue to callstack as per the order 
+decided byy callbackqueue.
+it coordinates b/w callbackqueue and callstack.
+it checks whether the callstack is empty or not.
+if it is empty it will push the function to the callstck.
+it rotates once when one async function moved to callstack.
+
+
+
