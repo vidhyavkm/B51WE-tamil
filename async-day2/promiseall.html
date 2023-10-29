@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const p1 = new Promise((resolve,reject)=>{
+            if(true){
+                setTimeout(() => {
+                    resolve("Timer Running")
+                    //reject("Timer1 rejected")
+                }, 1000);
+            } else{
+            reject("Timer1 rejected")
+            }
+        })
+
+        
+        const p2 = new Promise((resolve,reject)=>{
+            if(true){
+                setTimeout(() => {
+                    resolve("Timer2 Running")
+                }, 2000);
+            } else{
+             reject("Timer2 rejected")
+            }
+        })
+        
+
+        const p3 = new Promise((resolve,reject)=>{
+            if(true){
+                setTimeout(() => {
+                    reject("Timer3 rejected")
+                    // resolve("Timer3 Running")
+                }, 3000);
+            } else{
+            //  reject("Timer3 rejected")
+            }
+        })
+        
+        //  Promise.all([p1,p2,p3]).then((res)=>{console.log(res)}).catch((err)=>{console.log(err)})
+
+Promise.allSettled([p1,p2,p3]).then((res)=>{console.log(res)}).catch((err)=>{console.log(err)})
+
+      Promise.allSettled([p1,p2,p3]).then((res)=>res.forEach((res)=>console.log(res)))
+      .catch((err)=>err.forEach((err)=>console.log(err)))
+        
+    </script>
+</body>
+</html>

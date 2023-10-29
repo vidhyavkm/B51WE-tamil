@@ -1,0 +1,64 @@
+Promise
+ - What is a promise?
+ - Promise States
+ - Promise chain
+ - promise.all()
+ - Use of fetch() & then()
+
+Session Practice task in rest countries API:
+https://restcountries.eu/
+
+promise:
+
+->is one of the method to handle async functions.
+->developers used it to get the datas from an api.
+
+giving an assurance
+happen/ not happen
+
+it has 2 parameters
+resolve and reject
+
+3 states in promise
+
+1. pending=> initial state=> pending unless or untill async ops in process
+2. fulfilled => we will get the value 
+3. rejected.=> fails, throws error.
+
+syntax:
+
+let xyz = new Promise();
+
+here in promise we can handle the errors.
+ using .then() and .catch()
+ here we will recieve error msg along with the state.
+
+promise always returns an object
+it can either fulfiled or rjected 
+but both cant occur at the same time.
+
+promisechaining/ dependant operations
+
+handle multiple async operations.
+.then and .catch used many times
+complexity level is high, time consuming.
+
+-to overcome this we can use promiseall.
+-if all get fulfilled(resolved) it works well.
+-suppose any one async function throws error(rejected)
+-it doesnt shows the fulfilled one also.
+-this is a major drawback of promiseall.
+
+-to overcome this promiseallsettled is introduced.
+-it will give all the results in object format.
+
+fetch:
+
+is an alternative for xmlhttprequest.
+xhr = output is always an object
+fetch => object and it returns a promise.
+
+to handle the error in fetch, we can use .then 2 times.
+
+
+

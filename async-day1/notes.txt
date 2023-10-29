@@ -73,5 +73,12 @@ it checks whether the callstack is empty or not.
 if it is empty it will push the function to the callstck.
 it rotates once when one async function moved to callstack.
 
+callbackhell:
+
+here we shall use multiple callback functions, 
+but it ecomes the code clumpsy as well as time consuming.
+it is called a pain of callback.
+
+
 
 

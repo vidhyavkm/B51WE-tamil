@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const p1 = new Promise((resolve,reject)=>{
+            if(true){
+                setTimeout(() => {
+                    // resolve("Timer Running")
+                    reject("Timer1 rejected")
+                }, 1000);
+            } else{
+            //     reject("Timer1 rejected")
+            }
+        })
+        // console.log(p1);
+        p1.then((res)=>{console.log(res)}).catch((err)=>{console.log(err)})
+
+        
+        const p2 = new Promise((resolve,reject)=>{
+            if(true){
+                setTimeout(() => {
+                    resolve("Timer2 Running")
+                }, 3000);
+            } else{
+             reject("Timer2 rejected")
+            }
+        })
+        p2.then((res)=>{console.log(res)}).catch((err)=>{console.log(err)})
+
+
+        const p3 = new Promise((resolve,reject)=>{
+            if(true){
+                setTimeout(() => {
+                    resolve("Timer3 Running")
+                }, 5000);
+            } else{
+             reject("Timer3 rejected")
+            }
+        })
+        p3.then((res)=>{console.log(res)}).catch((err)=>{console.log(err)})
+    </script>
+</body>
+</html>

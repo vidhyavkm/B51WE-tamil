@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const p = new Promise(()=>{});
+        // console.log(p);
+
+        // const q = new Promise((resolve,reject)=>{});
+        // console.log(q);
+
+        // const r = new Promise((resolve,reject)=>{
+        //     resolve("Promise happened");
+        // });
+        // console.log(r);
+        // const s = new Promise((resolve,reject)=>{
+        //     reject("Promise rejected");
+        // });
+        // console.log(s);
+
+        // const t = new Promise((resolve,reject)=>{
+        //     reject("Promise rejected")
+        //     // resolve("Promise happened");
+        // });
+        // console.log(t);
+
+        //promise along with xmlhttprequest
+        
+        let promise = new Promise((resolve,reject)=>{
+
+        var request = new XMLHttpRequest();
+        
+        request.open('GET','https://restcountries.com/v3/all');
+      
+        request.send();
+       
+        request.onload = function(){
+            if(request.status==200){
+                var data = JSON.parse(request.response)
+        resolve(data)
+            }
+            else{
+                reject("some error occured")
+            }
+        }
+    })
+    promise.then((data)=>{console.log(data)}).catch((err)=>{console.log(err)})
+    </script>
+</body>
+</html>
