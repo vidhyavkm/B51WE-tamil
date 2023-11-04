@@ -1,0 +1,28 @@
+Contents:
+
+"Promise chaining
+Async/Await with error handling"
+
+it is an advanced nethod of retrieving datas from api.
+
+it both works together.
+
+async will returns always a Promise.
+
+for handling errors in async await , we are using try and catch.
+
+mock interview = 2.5 > 5
+
+CRUD operations:
+
+http methods:
+
+create - post
+read   - get
+update - put
+delete - delete
+
+health=> covid19 india
+weather => openweathermap
+food and drink => openbrewery
+dictionary => free dictionary

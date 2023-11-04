@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    var url = "https://6545d51ffe036a2fa954dae8.mockapi.io/lists"
+
+    async function createData(){
+        let data = {
+            name :"vidhya",
+            phone: 12345
+        }
+        let res = await fetch(url,{
+            method: "POST",
+            body: JSON.stringify(data),
+            headers: {
+                "Content-type":"application/json;charset=UTF-8"
+            }
+        })
+        var result = await res.json()
+        console.log(result);
+    }
+
+    createData();
+
+    async function readData(){
+        let res = await fetch(url)
+        let result = await res.json()
+        console.log(result)
+    }
+    readData();
+
+    async function updateData(){
+        let data = {
+            name :"vidhya1",
+            phone: 123456
+        }
+        let res = await fetch(url + "/10",{
+            method: "PUT",
+            body: JSON.stringify(data),
+            headers: {
+                "Content-type":"application/json;charset=UTF-8"
+            }
+        })
+        var result = await res.json()
+        console.log(result);
+    }
+
+    updateData();
+
+    async function deleteData(){
+        let res = await fetch(url + "/27",{
+            method: "DELETE"
+        })
+        let result = await res.json()
+        console.log(result)
+    }
+    deleteData();
+    
+   </script> 
+</body>
+</html>

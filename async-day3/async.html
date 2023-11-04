@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         
+         function foo(){
+            return "hi"
+         }
+         console.log(foo());
+
+         async function foo1(){
+            return "hello"
+         }
+         console.log(foo1());
+
+         async function foo2(){
+           let data = await "hello"
+           console.log(data);
+         }
+         foo2();
+
+         async function restCountries(){
+            try{
+            let res = await fetch("https://restcountries.com/v3.1/all")
+            console.log(res);
+            let result = await res.json()
+            console.log(result);
+         }
+        
+        catch(err){
+            console.log("Some error occured" + err)
+        }
+    }
+         restCountries();
+    </script>
+</body>
+</html>
