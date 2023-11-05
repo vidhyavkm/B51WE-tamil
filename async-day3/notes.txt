@@ -26,3 +26,8 @@ health=> covid19 india
 weather => openweathermap
 food and drink => openbrewery
 dictionary => free dictionary
+books=> bibleapi
+books=> openlibrary
+books=> poetry db
+
+rest=> representational state transfer

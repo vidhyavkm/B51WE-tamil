@@ -63,5 +63,12 @@ hoisting=> behaviour of moving all declarations to the top of the scope.(undefin
 
 spread and rest operators=> ...
 
+github=> code store usage, easily accesible
+init, add, commit, remote, push
+git stash, git pull, git rebase, git revert
+
+
+
+
 
 
