@@ -1,0 +1,67 @@
+codekata => 200+
+input=> Hello world
+print reverse of the word.
+output=> dlrow olleH
+
+split()=> reverse()=> join()
+
+html, css , JS(basic and advanced)
+to get > 2.5 out of 5.
+
+inbuilt functions
+mrf, 
+html tags ,header, article, section
+attirbutes
+callback, fetch, promise, async/await.
+xmlhttprequest=> XHR => traditional method to extract datas from the server
+new => class constructor, promise , and in some builtin methods.
+this => inside class constructor
+get , set method=> class constructor 
+
+ES5 and ES6
+concatination and template literals
+for loop and foreach, forof,forin
+mrf => map reduce filter.
+var and let , const
+
+css=> !important
+repeat=> to solve pattern problems.
+progress=> tag to mention the percentage in progress.
+
+RWD=> responsive web design => using media query or bootstarp.
+to response in all devices. 
+grid => two dimensional alignment, flex => one dimensional
+container => xs, small, medium, large , xl, xxl, container-fluid(100%)
+
+functions=> code reusabilty=> named, anonymous, arrow, IIFE
+return keyword=> returns the value, it will block the code.
+DOM=> document object model=> html tags can be created dynamically using javscript.
+
+settimeout and setinterval
+wil exceute only one time as per the seconds vs it will execute again and again. 
+cleartimeout and clearinterval
+
+events => to perform on particular events.
+blur, move, hover, click, down etc 
+e => prevent default 
+
+list => ol, ul
+table => thead, tbody, tr, th, td
+form => label, input, textarea, button, radio, checkbox
+
+position properties
+static, fixed, sticky, relative, absolute.
+
+display:none vs visibilty:hidden
+overflow property: scroll, hidden, auto, visible
+media query=> max screen and min screen
+box model=> margin, padding, border
+
+copy by value => primitive
+copy by reference=> composite
+hoisting=> behaviour of moving all declarations to the top of the scope.(undefined)
+
+spread and rest operators=> ...
+
+
+

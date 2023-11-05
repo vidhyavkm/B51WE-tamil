@@ -88,4 +88,8 @@ table tag
 1. table head => thead  => table row => tr => th
 2. table body => tbody=>table row=> table data => td
 
+section => particular provision or subdivision inside a document.(within a article tag)
+article => used in newspapers for multi-article documents(law)
+
+
 
