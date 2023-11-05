@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-content:
 
+content:
 
 "Introduction to web, Browser Wars 
 DOM tree VS CSSOM tree 
@@ -123,5 +122,4 @@ trivial datatypes:
 undefined => hoisting
 not defined
 null
->>>>>>> 0ed5072 (n)
 NaN

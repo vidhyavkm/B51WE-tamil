@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var str ="guvi";
 console.log(str);
 
@@ -14,7 +14,6 @@ console.log(studetails)
 
 console.log(studetails.mail)
 
-=======
 var str ="guvi";
 console.log(str);
 
@@ -29,6 +28,4 @@ var studetails = {
 console.log(studetails)
 
 console.log(studetails.mail)
-
->>>>>>> 0ed5072 (n)
 console.log(studetails["age"])
